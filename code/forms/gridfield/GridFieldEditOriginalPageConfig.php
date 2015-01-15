@@ -41,19 +41,6 @@ class GridFieldEditOriginalPageConfig_WithAddButton extends GridFieldEditOrigina
 
 }
 
-class GridFieldEditOriginalPageConfig_WithAddButton extends GridFieldEditOriginalPageConfig {
-
-	/**
-	 * @param int $itemsPerPage - How many items per page should show up
-	 */
-	public function __construct($itemsPerPage=null) {
-		parent::__construct($itemsPerPage);
-		$this
-			->addComponent(new GridFieldAddNewButtonOriginalPage());
-	}
-
-}
-
 class GridFieldEditOriginalPageConfig_WithoutDelete extends GridFieldEditOriginalPageConfig {
 
 	/**
