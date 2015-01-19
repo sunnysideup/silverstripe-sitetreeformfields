@@ -1,6 +1,6 @@
 <?php
 
-class SiteTreeListboxField extends CheckboxSetField {
+class SiteTreeCheckboxSetField extends CheckboxSetField {
 
 	/**
 	 *
