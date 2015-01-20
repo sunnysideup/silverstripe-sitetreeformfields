@@ -37,8 +37,6 @@ class SiteTreeCheckboxSetField extends CheckboxSetField {
 	 * @param form The parent form
 	 */
 	public function __construct($name, $title = '', $source = array(), $value='', $form=null, $emptyString=null) {
-		$this->source = array(1 => "A", 2 => "B");
-		$source = $this->source;
 		Requirements::css('sitetreeformfields/css/SiteTreeCheckboxSetField.css');
 		parent::__construct($name, $title, $source, $value, $form, $emptyString);
 	}
