@@ -1,31 +1,72 @@
-SiteTree Form Fields
-================================================================================
-
+# Silverstripe sitetreeformfields module
 [![Build Status](https://travis-ci.org/sunnysideup/silverstripe-sitetreeformfields.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-sitetreeformfields)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-sitetreeformfields/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-sitetreeformfields/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-sitetreeformfields/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-sitetreeformfields?branch=master)
+![helpfulrobot](https://helpfulrobot.io/sunnysideup/sitetreeformfields/badge)
 
-Provides form fields for the Silverstripe CMS that can be of use in selecting
-and editing sitetree objects (pages).
-
-Developer
------------------------------------------------
-Nicolaas Francken [at] sunnysideup.co.nz
-
-
-Requirements
------------------------------------------------
-see composer.json
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/sitetreeformfields/version)](https://packagist.org/packages/sunnysideup/sitetreeformfields)
+[![License](https://poser.pugx.org/sunnysideup/sitetreeformfields/license)](https://packagist.org/packages/sunnysideup/sitetreeformfields)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/sitetreeformfields/d/monthly)](https://packagist.org/packages/sunnysideup/sitetreeformfields)
 
 
-Documentation
------------------------------------------------
-see PHP classes for information or e-mail author.
+## Documentation
 
 
 
-Installation Instructions
------------------------------------------------
-use composer:
+ * [Developer Docs](docs/en/INDEX.md)
+ * [User Guide](docs/en/userguide.md)
+ * [API](http://ssmods.com/apis/sitetreeformfields/docs/en/api/)
+
+## Requirements
+
+
+
+see [composer.json](composer.json) for details
+
+### Suggested Modules
+
+
+
+see [composer.json](composer.json) for details
+
+
+## Installation
+
 
 ```
-    require sunnysideup/sitetreeformfields
+composer require sunnysideup/sitetreeformfields
 ```
+
+### Configuration
+
+
+
+In the `_config` folder you will find the `sitetreeformfields.yml.example`
+file that shows options for the configuration of this module.
+
+We recommend that you:
+
+  1. copy these `sitetreeformfields.yml.example` files into your
+`mysite/_config` folder
+  2. remove the .example extension
+  3. delete the lines you not care about, and
+  4. adjust the configurations that you would like to use.
+
+
+## Contributing
+
+
+
+We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Paid assistance
+
+
+
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz)
+
+## Author
+
+
+
+Sunny Side Up Ltd.
