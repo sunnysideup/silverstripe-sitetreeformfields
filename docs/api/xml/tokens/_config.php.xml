@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="/var/www/_modules/sitetreeformfields/trunk/docs/en/phpdox/../../.." file="_config.php" realpath="/var/www/_modules/sitetreeformfields/trunk/_config.php" size="7" time="2015-03-14T10:22:48+13:00" unixtime="1426281768" sha1="5e2a7c682e443a03bab1a1f3f159997ffdd74b27" relative="_config.php"/>
-  <line no="1">
-    <token name="T_OPEN_TAG">&lt;?php</token>
-  </line>
-  <line no="2"/>
-  <line no="3"/>
-</source>
